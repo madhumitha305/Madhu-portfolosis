@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhumitha | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }    body {
+        font-family: Arial, sans-serif;
+        background: #f4f8ff;
+        color: #24344d;
+        line-height: 1.7;
+    }
+
+    header {
+        background: #173b70;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        background: linear-gradient(135deg, #dceaff, #ffffff);
+    }
+
+    .hero h2 {
+        font-size: 38px;
+        color: #173b70;
+    }
+
+    .hero p {
+        margin: 15px 0 25px;
+        font-size: 18px;
+    }
+
+    .button {
+        display: inline-block;
+        background: #245ba8;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+    section {
+        padding: 55px 20px;
+        max-width: 950px;
+        margin: auto;
+    }
+
+    section h2 {
+        color: #173b70;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .card {
+        background: white;
+        padding: 25px;
+        margin: 15px 0;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px #173b7012;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .skills span {
+        background: #dceaff;
+        color: #173b70;
+        padding: 10px 18px;
+        border-radius: 20px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    footer {
+        background: #173b70;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+        .hero h2 {
+            font-size: 29px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+</style>
+
+</head>
+<body><header>
+    <h1>Madhumitha</h1>
+    <p>Welcome to My Personal Portfolio</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header><div class="hero" id="home">
+    <h2>Hello, I'm Madhumitha! 💙</h2>
+    <p>A Student | Creative Thinker | Future Developer</p>
+    <a class="button" href="#about">Discover More</a>
+</div><section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>Hello! I'm Madhumitha. I have completed my 12th standard and am beginning my college journey. I'm interested in technology, creativity, and learning new things. My goal is to develop my skills and build a successful career.</p>
+    </div>
+</section><section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Higher Secondary Education</h3>
+        <p>Completed Class 12.</p>
+    </div>
+    <div class="card">
+        <h3>College</h3>
+        <p>Starting my next chapter of learning and growth.</p>
+    </div>
+</section><section id="skills">
+    <h2>My Skills</h2>
+    <div class="card">
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Creative Thinking</span>
+            <span>Design</span>
+            <span>Problem Solving</span>
+        </div>
+    </div>
+</section><section id="interests">
+    <h2>My Interests</h2>
+    <div class="card">
+        <p>🎨 Fashion and Creative Design</p>
+        <p>🎵 Singing and Music</p>
